@@ -7,8 +7,7 @@
 
 A modern, containerized web application to scan and download albums from Bandcamp artists. Built with **FastAPI**, **React**, and **Playwright**.
 
-![Screenshot Placeholder](https://via.placeholder.com/800x400?text=Application+Screenshot)
-*(Replace this link with an actual screenshot of your application)*
+![Bandcamp Downloader Screenshot](./screenshot.png)
 
 ## ✨ Features
 
@@ -19,6 +18,13 @@ A modern, containerized web application to scan and download albums from Bandcam
 - **🖼️ Gallery View**: Beautiful grid layout with album covers.
 - **⬇️ Batch Download**: Select multiple albums and download them in one click.
 - **🧠 Intelligent**: Handles "Name Your Price" popups automatically (sets price to 0).
+
+## 📖 Glossary
+
+- **FREE**: The album is available for free download immediately.
+- **NYP (Name Your Price)**: The artist allows you to pay what you want. The downloader automatically sets the price to **0** to download it for free.
+- **PAID**: The album requires a fixed payment. The downloader will **skip** these albums automatically.
+
 
 ## 🚀 Getting Started
 
