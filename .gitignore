@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+*.log
+
+# Build outputs
+build/
+dist/
+*.exe
+*.app
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Wails
+frontend/wailsjs/
+
+# Playwright
+.playwright/
+
+# Old projects (not part of v1.0)
+bcdl-go/
+bcdl-tauri/
+bcdl-deploy/
+backend/
+frontend/
+docker/
+*.py
+*.sh
